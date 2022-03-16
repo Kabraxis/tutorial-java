@@ -7,24 +7,26 @@
 
 ```
 
-What does n print?
+What will be the output?
 
-That one is tricky!
-It took me a bit to understand what 'arr[arr[n] / 2]' is and how it works, and the best advice I can give you is to do it like me,
-kind of "oldschool" by writing it on a piece of paper.
+The answer for this is harder for a beginner than it might look at first, as I did not know that I have to do some math in order to tell the result of this question.
 
-How I understand this is, the value 'arr[arr[n] / 2]' is nested. So we have to kind of work from the inside outwards
-to get the right answer.
-The first value we need to define is 'n', what is '6', since line 2 of the code says 'int n = 6'.
-Now the value of 'n' reads 'arr[arr[6] / 2]'.
+It took me a bit to understand what ```arr[arr[n] / 2]``` is and how it works, but a good advice I read on my journey to learn how to code helped me here:
+*Write each and every step down on a sheet of paper with a pencil.*
 
-Next we need to define the inner-'arr', before we can solve the whole bracket by 'arr/ 2'.
-Since [6] tells us that the value of the inner-'arr' is on 6th index position of the array we know it is the number '8'.
-Now the value of 'n' reads 'arr[8 / 2]', and this can be solved to 'n = arr[4]'.
+By doing so, I found out ```arr[arr[n] / 2]``` is a nested value and from math I knew to solve brackets first. Which made me conclude, I will have to work my way from the inside out to solve it.
 
-The last step is to look at the 4th index position and this is the number '3'. 
-Therefore 'n' prints '3'.
+The first thing to do was to put in a value for the placeholder ```n```, which obviously is ```6```, as the second line of the code says exactly this: ```int n = 6```.
 
-I hope this will help you guys to understand what is happening here 
+It now was a little clearer to me, because that the value reads ```arr[arr[6] / 2]```, and I could go on by defining the ```arr``` in the next bracket, because it looked like something that must be divided by ```2```.
 
-Cherrs
+Having in mind the basics of an array, I could identify ```arr[6]``` as the 6th index position of the array, which is the number ```8```.
+
+I filled this into the brackets, it reads ```arr[8 / 2]``` and could do some basic math on it. So ```8 / 2 = 4```, and there was another value to put in ```arr[arr[4]]```.
+
+At this point it was super clear to me that it now reads “index of arr is the value on index position ```4``` of the array”, which is the number ```3```.
+So the output will be ```3```.
+
+I hope this might help some of you to understand how to read and solve such a value, and to understand what the code is doing.
+
+Cheers

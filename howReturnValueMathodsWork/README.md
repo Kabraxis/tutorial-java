@@ -34,7 +34,7 @@ So, what we need is:
             String material = "Iron Ore";
     
     // Step 2: Now we want to get the Iron Bar. So the grappling hook of the factory "ironForge" (the method) is carrying the Iron Ore to it.
-    (Next: See Step 3 a few lines below)
+    // (Next: See Step 3 a few lines below)
             String ironBar = ironForge(material);
     
     // Step 5: As the Iron Bar is ready now grappling hook of the factory "swordSmith" can carry it to make our sword. (Next: See Step 6 a few lines below, the method swordSmith)

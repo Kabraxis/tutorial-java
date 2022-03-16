@@ -1,7 +1,11 @@
-int arr[] = new int[] { 0, 1, 1, 2, 3, 5, 8, 13, 21 };
-int n = 6;
-n = arr[arr[n] / 2];
-System.out.println(n);
+```java
+
+ int arr[] = new int[] { 0, 1, 1, 2, 3, 5, 8, 13, 21 };
+ int n = 6;
+ n = arr[arr[n] / 2];
+ System.out.println(n);
+
+```
 
 What does n print?
 

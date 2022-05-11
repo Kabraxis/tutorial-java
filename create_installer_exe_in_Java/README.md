@@ -152,7 +152,7 @@ For further detail, please visit: [https://docs.oracle.com/en/java/javase/14/doc
 ## 4# New icon for the installer  
       
    
--   So, there is your `Main-1.0.exe` file inside your project’s `folder`. It usually has the same icon as your actual program. I personally don’t like it when the installer and the program share the same icon, as they can easier mistake with each otter **🦦**.  
+-   So, there is your `Main-1.0.exe` file inside your project’s `folder`. It usually has the same icon as your actual program. Personally, I don’t like the installer and the program shareing the same icon, as they can easier be mistaken with each otter **🦦**.  
 And right here comes Resource Hack into play.
     
 -   `Run` Resource Hack from its desktop or start menu shortcut.

@@ -162,6 +162,7 @@ And right here comes Resource Hack into play.
 -   Click `Action` - `Add an Image or Other Binary Resource…`, in the upcoming window click Select `File…`, select the `ICO` file for your installer and click on `Add Resource`.
     
 -   In the `main window` of Resource Hack, you see `two green floppy discs` (for the younger people aka. `save icons`), `click` the left one in order to `save` everything. Now you can `close` Resource Hack.
+Sometimes the new icon of your installer won't be visible after chaging it. In this case just copy it to another directory and it should be displayed properly.
     
 <br/>
 

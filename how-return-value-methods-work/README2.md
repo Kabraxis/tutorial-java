@@ -1,4 +1,4 @@
-If you are a person like me who has a pretty visual thinking or if you sometimes just understand things easier if you have an image of it in your head, maybe this helps you:
+If you are a person like me who has a pretty visual thinking or if you sometimes just understand things easier if you have a picture of it in your head, maybe this helps:
 
 Imagine a method like a machine that should process materials for you.
 The return value describes if the machine should send you the processed goods back for further processing. 
@@ -33,7 +33,7 @@ So, let's create a `stockpile` in our `main method` in which we store our `steel
 property stockpile = smeltingFurnace(coal, ironOre);
 ```
 
-Now the `stockpile` contains our `steel ingot`.
+Now, the `stockpile` contains our `steel ingot`.
 
 In code, this might look something like this (simplified):
 

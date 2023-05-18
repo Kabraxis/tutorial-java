@@ -2,8 +2,8 @@
 **About this tutorial**
 
 This guide does not cover every detail about methods and is focusing mainly on return value methods. For the sake of simplicity, I will not explain the basic syntax, like how to define a method or what signatures are.
-Please also keep in mind the terms I use may not be correct. So when I talk about "sending data" this is only for illustration purposes, please do not use them in your exam or something.
-This is my simplified understanding of how methods work and can be used by beginners to understand methods do.
+Please note: some of the terms I use here are not correct. So when I talk about "sending data" this is only for illustration purposes, please do not use these in your exam or something.
+This is my simplified understanding of how methods work and can be used by beginners to understand what methods do.
 Everyday analogies often help me to understand things, since they feel like being able to "grab" them, metaphorically speaking.
 
 A method is a sequence of statements packed together to perform an operation, a program inside your program, if you will. The idea behind methods is to divide a program into small and easy to maintain parts/tasks, that can be reused.

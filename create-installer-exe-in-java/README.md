@@ -60,7 +60,7 @@ In case there is one of them missing, you can get both here:
       
 <br/>
 
-## 1# Compiling the CLASS file:
+## 1# Compiling the JAVA to a CLASS file:
    
 -   Open Windows start menu, type CMD and run it.
     
@@ -70,7 +70,7 @@ In case there is one of them missing, you can get both here:
     
 -   In order to compile your project to bytecode, type `javac Main.java` and, again, hit `enter`.
     
--   Now we have the `Main.class` in our folder at the desktop. You can check this by typing `dir` into CMD, followed by enter. This lists all files inside that folder.  
+-   Now you have the `Main.class` in our folder at the desktop. You can check this by typing `dir` into CMD, followed by `enter`. This lists all files inside that folder.  
       
     
     <br/>
@@ -178,7 +178,7 @@ And there it is, your installer is ready and coming with an individual icon - co
   
 1. This can be related to a missing installation of the `JDK` (Java Development Kit), please see *prerequisites* for the link. I highly recommend you to install it in the default directory (as the installer suggests), that way you make things easier in setting the Environment Variable aka. include `JDK` into the `PATH`.
 
-2. `PATH` entry / `Environment Variable` is missing can also cause CMD not knowing the `JAR` command. To change them, `open` Windows start menu and type `environ` this should be enough to bring up `Edit the system environment variables` - run it.
+2. `PATH` entry / `Environment Variable` is missing can also cause CMD not knowing the `JAR` command. To change them, `open` Windows start menu and type `environ`, this should be enough to bring up `Edit the system environment variables` - run it.
 
 -   Go to the `Advanced` tab (top side) and click `Environment Variables…`
     
